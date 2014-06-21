@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2B981CCDC848F4A9E53E60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D872C6C824058959AB9E2 /* libPods.a */; };
 		EE95915A1954E005005D7949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9591591954E005005D7949 /* Foundation.framework */; };
 		EE95915C1954E005005D7949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95915B1954E005005D7949 /* CoreGraphics.framework */; };
 		EE95915E1954E005005D7949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95915D1954E005005D7949 /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		EE9591751954E006005D7949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95915D1954E005005D7949 /* UIKit.framework */; };
 		EE95917D1954E006005D7949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE95917B1954E006005D7949 /* InfoPlist.strings */; };
 		EE95917F1954E006005D7949 /* JapaneaseFTPSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95917E1954E006005D7949 /* JapaneaseFTPSampleTests.m */; };
+		EE9591891954E2F9005D7949 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9591881954E2F9005D7949 /* Storyboard.storyboard */; };
+		EE95918C1954E4C0005D7949 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95918B1954E4C0005D7949 /* SampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		748D872C6C824058959AB9E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C39A83DA7B4740B280697F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EE9591561954E005005D7949 /* JapaneaseFTPSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneaseFTPSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9591591954E005005D7949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE95915B1954E005005D7949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,9 @@
 		EE95917A1954E006005D7949 /* JapaneaseFTPSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JapaneaseFTPSampleTests-Info.plist"; sourceTree = "<group>"; };
 		EE95917C1954E006005D7949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE95917E1954E006005D7949 /* JapaneaseFTPSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapaneaseFTPSampleTests.m; sourceTree = "<group>"; };
+		EE9591881954E2F9005D7949 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EE95918A1954E4C0005D7949 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		EE95918B1954E4C0005D7949 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				EE95915C1954E005005D7949 /* CoreGraphics.framework in Frameworks */,
 				EE95915E1954E005005D7949 /* UIKit.framework in Frameworks */,
 				EE95915A1954E005005D7949 /* Foundation.framework in Frameworks */,
+				2C2B981CCDC848F4A9E53E60 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				EE9591781954E006005D7949 /* JapaneaseFTPSampleTests */,
 				EE9591581954E005005D7949 /* Frameworks */,
 				EE9591571954E005005D7949 /* Products */,
+				86C39A83DA7B4740B280697F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +110,7 @@
 				EE95915B1954E005005D7949 /* CoreGraphics.framework */,
 				EE95915D1954E005005D7949 /* UIKit.framework */,
 				EE9591721954E006005D7949 /* XCTest.framework */,
+				748D872C6C824058959AB9E2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +122,9 @@
 				EE9591691954E005005D7949 /* AppDelegate.m */,
 				EE95916B1954E005005D7949 /* Images.xcassets */,
 				EE9591601954E005005D7949 /* Supporting Files */,
+				EE9591881954E2F9005D7949 /* Storyboard.storyboard */,
+				EE95918A1954E4C0005D7949 /* SampleViewController.h */,
+				EE95918B1954E4C0005D7949 /* SampleViewController.m */,
 			);
 			path = JapaneaseFTPSample;
 			sourceTree = "<group>";
@@ -151,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE9591821954E006005D7949 /* Build configuration list for PBXNativeTarget "JapaneaseFTPSample" */;
 			buildPhases = (
+				16887770C2564C92B5B9BB34 /* Check Pods Manifest.lock */,
 				EE9591521954E005005D7949 /* Sources */,
 				EE9591531954E005005D7949 /* Frameworks */,
 				EE9591541954E005005D7949 /* Resources */,
+				4C80914F50E84F5082A9C1D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +237,7 @@
 			files = (
 				EE9591641954E005005D7949 /* InfoPlist.strings in Resources */,
 				EE95916C1954E005005D7949 /* Images.xcassets in Resources */,
+				EE9591891954E2F9005D7949 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +251,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16887770C2564C92B5B9BB34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C80914F50E84F5082A9C1D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE9591521954E005005D7949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -241,6 +291,7 @@
 			files = (
 				EE95916A1954E005005D7949 /* AppDelegate.m in Sources */,
 				EE9591661954E005005D7949 /* main.m in Sources */,
+				EE95918C1954E4C0005D7949 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +405,7 @@
 		};
 		EE9591831954E006005D7949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C39A83DA7B4740B280697F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +419,7 @@
 		};
 		EE9591841954E006005D7949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C39A83DA7B4740B280697F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +490,7 @@
 				EE9591841954E006005D7949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9591851954E006005D7949 /* Build configuration list for PBXNativeTarget "JapaneaseFTPSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +499,7 @@
 				EE9591871954E006005D7949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
