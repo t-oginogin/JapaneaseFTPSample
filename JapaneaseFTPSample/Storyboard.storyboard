@@ -96,12 +96,23 @@
                                     <action selector="cancel:" destination="I20-Ts-pHo" eventType="touchUpInside" id="6YO-fO-dFi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EX7-Xv-3is">
+                                <rect key="frame" x="20" y="512" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteFile:" destination="I20-Ts-pHo" eventType="touchUpInside" id="gWw-9b-09R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dwe-9r-uUD"/>
                     <connections>
                         <outlet property="cancelButton" destination="RSB-8V-CJa" id="W1w-F5-jRY"/>
+                        <outlet property="deleteButton" destination="EX7-Xv-3is" id="cCU-XD-Sbh"/>
                         <outlet property="fileListView" destination="Fso-lX-Hv8" id="MaU-Tc-Scv"/>
                         <outlet property="getButton" destination="ldD-bI-66h" id="qXM-4u-Cle"/>
                         <outlet property="hostNameField" destination="nC9-cW-NSC" id="Tcp-Pw-rFg"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C2B981CCDC848F4A9E53E60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D872C6C824058959AB9E2 /* libPods.a */; };
+		EE19AF6F1958F5250060282C /* GRRequest+encode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19AF6E1958F5250060282C /* GRRequest+encode.m */; };
 		EE95915A1954E005005D7949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9591591954E005005D7949 /* Foundation.framework */; };
 		EE95915C1954E005005D7949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95915B1954E005005D7949 /* CoreGraphics.framework */; };
 		EE95915E1954E005005D7949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE95915D1954E005005D7949 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		748D872C6C824058959AB9E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C39A83DA7B4740B280697F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EE19AF6D1958F5250060282C /* GRRequest+encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRRequest+encode.h"; sourceTree = "<group>"; };
+		EE19AF6E1958F5250060282C /* GRRequest+encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRRequest+encode.m"; sourceTree = "<group>"; };
 		EE9591561954E005005D7949 /* JapaneaseFTPSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneaseFTPSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9591591954E005005D7949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE95915B1954E005005D7949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,8 @@
 		EE95915F1954E005005D7949 /* JapaneaseFTPSample */ = {
 			isa = PBXGroup;
 			children = (
+				EE19AF6D1958F5250060282C /* GRRequest+encode.h */,
+				EE19AF6E1958F5250060282C /* GRRequest+encode.m */,
 				EE9591681954E005005D7949 /* AppDelegate.h */,
 				EE9591691954E005005D7949 /* AppDelegate.m */,
 				EE95916B1954E005005D7949 /* Images.xcassets */,
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE19AF6F1958F5250060282C /* GRRequest+encode.m in Sources */,
 				EE95916A1954E005005D7949 /* AppDelegate.m in Sources */,
 				EE9591661954E005005D7949 /* main.m in Sources */,
 				EE95918C1954E4C0005D7949 /* SampleViewController.m in Sources */,

@@ -103,6 +103,26 @@
     [self.requestsManager stopAndCancelAllRequests];
 }
 
+- (IBAction)deleteFile:(id)sender {
+    [self _setupManager];
+
+    if (self.ftpFileName == nil) {
+        return;
+    }
+    
+    NSData *nameData = [self.ftpFileName dataUsingEncoding:NSShiftJISStringEncoding];
+    if (nameData == nil) {
+        return;
+    }
+    
+    NSString *newName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
+    //    NSString* encodedFileName = [newName stringByAddingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    // delete時は内部でURLエンコードされている
+    [self.requestsManager addRequestForDeleteFileAtPath:newName];
+    [self.requestsManager startProcessingRequests];
+}
+
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return (NSInteger) [self.fileLists count];
@@ -163,12 +183,19 @@
     }
     
     self.getButton.enabled = YES;
+    self.deleteButton.enabled = YES;
     [self.fileListView reloadData];
 }
 
 - (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didCompleteUploadRequest:(id<GRDataExchangeRequestProtocol>)request
 {
     
+}
+
+- (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didCompleteDeleteRequest:(id<GRRequestProtocol>)request
+{
+    NSLog(@"requestsManager:didCompleteDeleteRequest:");
+    [self getList:nil];
 }
 
 - (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didFailWritingFileAtPath:(NSString *)path forRequest:(id<GRDataExchangeRequestProtocol>)request error:(NSError *)error
