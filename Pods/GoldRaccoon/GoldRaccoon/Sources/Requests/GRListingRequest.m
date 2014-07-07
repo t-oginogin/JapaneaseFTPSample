@@ -23,8 +23,8 @@
 
 @implementation GRListingRequest
 
-@synthesize filesInfo;
-@synthesize receivedData;
+@synthesize filesInfo = _filesInfo;
+@synthesize receivedData = _receivedData;
 
 - (BOOL)fileExists:(NSString *)fileNamePath
 {
@@ -68,66 +68,49 @@
 			self.filesInfo = [NSMutableArray array];
             self.didOpenStream = YES;
             self.receivedData = [NSMutableData data];
-        } break;
+            break;
+        }
             
         case NSStreamEventHasBytesAvailable: {
             data = [self.streamInfo read:self];
             
             if (data) {
-                [self.receivedData appendData: data];
+                [self.receivedData appendData:data];
             }
             else {
-                NSLog(@"Stream opened, but failed while trying to read from it.");
                 [self.streamInfo streamError:self errorCode:kGRFTPClientCantReadStream];
             }
+            break;
         }
-        break;
             
-        case NSStreamEventHasSpaceAvailable: {
-            
-        } 
+        case NSStreamEventHasSpaceAvailable:
         break;
             
         case NSStreamEventErrorOccurred: {
             [self.streamInfo streamError:self errorCode:[GRError errorCodeWithError:[theStream streamError]]];
-            NSLog(@"%@", self.error.message);
+            break;
         }
-        break;
             
         case NSStreamEventEndEncountered: {
             NSUInteger  offset = 0;
             CFIndex     parsedBytes;
             uint8_t *bytes = (uint8_t *)[self.receivedData bytes];
-            int totalbytes = [self.receivedData length];
-           
-            // we have all the data for the directory listing. Now parse it.
+            NSUInteger totalbytes = [self.receivedData length];
+            
             do {
                 CFDictionaryRef listingEntity = NULL;
-                
-                 parsedBytes = CFFTPCreateParsedResourceListing(NULL, &bytes[offset], totalbytes - offset, &listingEntity);
-                
-                if (parsedBytes > 0)
-                {
-                    if (listingEntity != NULL)
-                    {
-                        // July 10, 2012: CFFTPCreateParsedResourceListing had a bug that had the date over retained
-                        // in order to fix this, we release it once. However, just as a precaution, we check to see what
-                        // the retain count might be (this isn't guaranteed to work).
-                        id date = [(__bridge NSDictionary *)listingEntity objectForKey:(id)kCFFTPResourceModDate];
-                        if (CFGetRetainCount((__bridge CFTypeRef) date) >= 2)
-                            CFRelease((__bridge CFTypeRef) date);
-                        
-                        // transfer the directory into an ARC maintained array
+                parsedBytes = CFFTPCreateParsedResourceListing(NULL, &bytes[offset], totalbytes - offset, &listingEntity);
+                if (parsedBytes > 0) {
+                    if (listingEntity != NULL) {
                         self.filesInfo = [self.filesInfo arrayByAddingObject:(__bridge_transfer NSDictionary *)listingEntity];
                     }
                     offset += parsedBytes;
                 }
-                
             } while (parsedBytes > 0);
-
-            [self.streamInfo streamComplete:self];                             // perform callbacks and close out streams
+            
+            [self.streamInfo streamComplete:self];
+            break;
         }
-        break;
         
         default:
             break;

@@ -12,7 +12,12 @@
 
 - (NSString *)encodeString:(NSString *)string;
 {
-    NSString *urlEncoded = [string stringByAddingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    NSString *urlEncoded = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(
+                                                                                                 NULL,
+                                                                                                 (__bridge CFStringRef) string,
+                                                                                                 NULL,
+                                                                                                 (CFStringRef)@"!*'\"();:@&=+$,?%#[]% ",
+                                                                                                 kCFStringEncodingMacRoman);
     return urlEncoded;
 }
 

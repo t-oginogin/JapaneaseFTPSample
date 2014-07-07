@@ -10,44 +10,20 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>05342FA168DE43EB94482A7D</key>
+		<key>04B0A1F3EAB74649B0C0AD10</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>906A34A3B5C14EE39714E967</string>
-				<string>132F3B597E3C40EF9452C555</string>
-				<string>E29C416C87104FC3A42E990F</string>
-				<string>7A61C13F76564864B8A7DF72</string>
-				<string>8609B44601A840F5AD72307E</string>
-				<string>57B59E4F299846ABAEF26DE0</string>
-				<string>D9204E8136B54606AE7A153F</string>
-				<string>32285A31DC644AB3B6C7D543</string>
-				<string>989EDBB59EC74322B5361948</string>
-				<string>B20C5C156BAE43699E49D518</string>
-				<string>F8AC101B7A05439CA621D3DE</string>
-				<string>48967A3280F045ABA7DA270C</string>
+				<string>C943737085884862B4B0D869</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>05ECC3FAF215491F87035A9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GoldRaccoon-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0939D5ED672A409790968027</key>
+		<key>088D620C735144DE8C0F13C5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -60,103 +36,64 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0AF654324289445D97A866EB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>605346F919FE41B981E3E54E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0BCD50674E8948D8932853B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92C56D4F6E9C4BB088731E6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0E993767D17F4879AF334B4B</key>
+		<key>1173F83C7139481A8C7AD429</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>GRListingRequest.m</string>
+			<string>GRStreamInfo.h</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRListingRequest.m</string>
+			<string>GoldRaccoon/Sources/Utils/GRStreamInfo.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>132F3B597E3C40EF9452C555</key>
+		<key>1182AFF93ECC4DD4A45D11FC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FB5B053FF3F34EA196275A2D</string>
+			<string>4400FE439BF24913921B7239</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>15681F2A234B4D66B45FF987</key>
+		<key>13CE77686052448D8ACBB78C</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>1DDAB707394944D3AE323979</string>
-				<string>DE6B5407B22A4212828E87D1</string>
+				<string>2046A25D86E3450CA10B410B</string>
+				<string>E53981B85C024395878DEE4B</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1A12FBB32AF14FF5A2EB4B0E</key>
+		<key>154C4FA89C004FDA8E89C56E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7EB199D1996B4A859FB561E3</string>
+				<string>2E04EFB40A5849F59F85F486</string>
+				<string>4E9DC681AAF9451B994EFFEB</string>
+				<string>C89E6AB0E2634FFC9E4A096D</string>
+				<string>088D620C735144DE8C0F13C5</string>
+				<string>D15FD307A2E54EDA9222A3FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1867392657534975870AFEBA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4D8B4A1204CB4EF3A36176F9</string>
+			<string>3985575C7CEE4D6B895CB244</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -165,7 +102,126 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>1AE002C3DA7A443EA1FD8991</key>
+		<key>1AC05332DD3347869E0BE327</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRDownloadRequest.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRDownloadRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DA225A0D7CE4876A7CD2E52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AD0580176A9B4DABA97381D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2046A25D86E3450CA10B410B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>21367C7A4EE443C39BDDB6BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7FEB7DEE2CA4541BCF5A91F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>2195AC7898004B2589C66FC6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F5A1A98472C4161AFE3F624</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25CC424DC9904F2C91DE33CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0381766E7304A34AE504D02</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27B1A128B7EE4991A07CF525</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8FE8C63D4C82437CB8F0A149</string>
+				<string>56162A03CEBF42F0AFCCB38D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2A5516B9D977439886ED21B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DBADBF79D08C4F3E93B1338E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CB5FE4F63B24B02A8861285</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>8FB9B2F8C5C644A1B14A3DB8</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>FDA8C2EF5D2944808F822C33</string>
+			<key>productRefGroup</key>
+			<string>13CE77686052448D8ACBB78C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D57ABE95638A4E4B88278C4C</string>
+				<string>CA14B816DF8345FC81D98891</string>
+			</array>
+		</dict>
+		<key>2E04EFB40A5849F59F85F486</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -173,151 +229,12 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
 			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>1BD059C72B0048699C27F56F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRCreateDirectoryRequest.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRCreateDirectoryRequest.m</string>
+			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1DDAB707394944D3AE323979</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>05ECC3FAF215491F87035A9F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GoldRaccoon-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1ED365CC65BD4DB0A727B014</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GoldRaccoon-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21C75C945E2345B4AB8974E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRListingRequest.h</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRListingRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BC33BAE1BC74D2F90759609</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRQueue.h</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F403072CC974CBBB3E4B31F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E993767D17F4879AF334B4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>32285A31DC644AB3B6C7D543</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D576A80F57D4625992978FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>356EC50A51494807B2A3685C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92C56D4F6E9C4BB088731E6E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3668E212A40D49D295BD85D4</key>
+		<key>2EC7094403E54FB5AB0445DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -332,7 +249,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3AC6CAC28C1B43129C0A9BB8</key>
+		<key>2F5A1A98472C4161AFE3F624</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRRequestsManagerProtocol.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/GRRequestsManagerProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35EF9149E9324BF1BC5B696A</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -390,181 +322,10 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>3B0937677647425996D2B726</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>356EC50A51494807B2A3685C</string>
-				<string>8FB3D0EEAEAE40A1B7A8E7FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3D7C4DA2AAE741F38D29D70E</key>
+		<key>3689D169BBD04AD2A03E649D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>78E4D2B3A6B54CD4A331A144</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>43F76E4F02C9499AB290946A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3D7C4DA2AAE741F38D29D70E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>48967A3280F045ABA7DA270C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BE36E9993334380964CB2E4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4AC75026A38447C8971A912A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>605346F919FE41B981E3E54E</string>
-				<string>F4FB377ED4064B11B13341C9</string>
-				<string>E2AD5A9534B847DDA51A00E8</string>
-				<string>78E4D2B3A6B54CD4A331A144</string>
-				<string>0939D5ED672A409790968027</string>
-				<string>814C3E8AC50D4679A08165ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D8B4A1204CB4EF3A36176F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRError.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRError.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4EC3F992B2F04AADA8F04A8B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>15681F2A234B4D66B45FF987</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6C233769C5BF4815B3741333</string>
-				<string>50B33CF9C8404A06AEFA4853</string>
-				<string>05342FA168DE43EB94482A7D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GoldRaccoon</string>
-			<key>productName</key>
-			<string>Pods-GoldRaccoon</string>
-			<key>productReference</key>
-			<string>8F515A3551904CF2BEDD0DD8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>50B33CF9C8404A06AEFA4853</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0BCD50674E8948D8932853B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>56361E830EED420987F7FDD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRDownloadRequest.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRDownloadRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57B59E4F299846ABAEF26DE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2BC33BAE1BC74D2F90759609</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>57C63987E6CF4ECE9B1F0D85</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>92F9CF28BFD54CDB9BC589A5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8D436358EA924CE789E1C909</string>
-			<key>productRefGroup</key>
-			<string>AF125573D2E64D988A6BF952</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>CC6BE882DC2147DDB095EB79</string>
-				<string>4EC3F992B2F04AADA8F04A8B</string>
-			</array>
-		</dict>
-		<key>59AE4322098549878FFCDD8F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>56361E830EED420987F7FDD0</string>
+			<string>6BF22DEE44E14CC5B2BE05F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -573,72 +334,35 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>5D576A80F57D4625992978FF</key>
+		<key>3985575C7CEE4D6B895CB244</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>GRRequestProtocol.h</string>
+			<string>GRCreateDirectoryRequest.m</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRRequestProtocol.h</string>
+			<string>GoldRaccoon/Sources/Requests/GRCreateDirectoryRequest.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5F2F5556F63D42C5A59E8321</key>
+		<key>3D7BCBC35B0A4A5887198C43</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>772B4776643A43FAB2D52F0F</string>
-				<string>1BD059C72B0048699C27F56F</string>
-				<string>FB5B053FF3F34EA196275A2D</string>
-				<string>3668E212A40D49D295BD85D4</string>
-				<string>621F80FB1DB641C2BA8A79CD</string>
-				<string>56361E830EED420987F7FDD0</string>
-				<string>B28F80888EC84A2788CEBC00</string>
-				<string>4D8B4A1204CB4EF3A36176F9</string>
-				<string>21C75C945E2345B4AB8974E8</string>
-				<string>0E993767D17F4879AF334B4B</string>
-				<string>2BC33BAE1BC74D2F90759609</string>
-				<string>A44A9618B91947CAB0DF44C4</string>
-				<string>8D8E8BA794064AB890A0DA27</string>
-				<string>B947E525CF3C4515A0C7E426</string>
-				<string>5D576A80F57D4625992978FF</string>
-				<string>E584070C7AEB4D6AA8B0A9AE</string>
-				<string>B83745ABE2774BEAA9828B42</string>
-				<string>FB756C930F1A42D3A5B87422</string>
-				<string>D54D3EAE839941FAB4341F69</string>
-				<string>DB2A73DF21E441E7B9363697</string>
-				<string>9BE36E9993334380964CB2E4</string>
-				<string>72B555878E49429F9A4EF0D5</string>
-				<string>6EB98835CA8541C3A6D4C494</string>
+				<string>9B62BCA329CC447D9DDC2770</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>GoldRaccoon</string>
-			<key>path</key>
-			<string>GoldRaccoon</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>605346F919FE41B981E3E54E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>621F80FB1DB641C2BA8A79CD</key>
+		<key>4400FE439BF24913921B7239</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -653,148 +377,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6982F79CD4AC40308EC7F185</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DDC01AE0DB73431782B95C4E</string>
-				<string>0AF654324289445D97A866EB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6C233769C5BF4815B3741333</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A8B64A7FB44E4224866B97A1</string>
-				<string>8413FF092C4540B6B51EA5FE</string>
-				<string>59AE4322098549878FFCDD8F</string>
-				<string>1A12FBB32AF14FF5A2EB4B0E</string>
-				<string>2F403072CC974CBBB3E4B31F</string>
-				<string>C521BFD33F244AC0882D9B5E</string>
-				<string>E90E8919D1384A7086D26201</string>
-				<string>9F68B560F81E492895CCB4C6</string>
-				<string>A89CC242FBED44B5B99BB0F3</string>
-				<string>C0C78540C948424E97E6C28A</string>
-				<string>F9B7D50A60364302B6156723</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6EB98835CA8541C3A6D4C494</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E8ADCC3C77AE46668226E808</string>
-				<string>05ECC3FAF215491F87035A9F</string>
-				<string>1ED365CC65BD4DB0A727B014</string>
-				<string>B5D90267B27641F3A24CFD09</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6FD5CD07C3CA4EA7BD854EC1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>57C63987E6CF4ECE9B1F0D85</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4EC3F992B2F04AADA8F04A8B</string>
-			<key>remoteInfo</key>
-			<string>Pods-GoldRaccoon</string>
-		</dict>
-		<key>72B555878E49429F9A4EF0D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRUploadRequest.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRUploadRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>772B4776643A43FAB2D52F0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRCreateDirectoryRequest.h</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRCreateDirectoryRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78E4D2B3A6B54CD4A331A144</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A61C13F76564864B8A7DF72</key>
+		<key>45FF5BB4E3834E83ABDB4E6B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B28F80888EC84A2788CEBC00</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F598C0DEA844F538146491F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4EC3F992B2F04AADA8F04A8B</string>
-			<key>targetProxy</key>
-			<string>6FD5CD07C3CA4EA7BD854EC1</string>
-		</dict>
-		<key>814C3E8AC50D4679A08165ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8413FF092C4540B6B51EA5FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3668E212A40D49D295BD85D4</string>
+			<string>946CCBBCE09B494892059AF3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -803,29 +389,7 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>8609B44601A840F5AD72307E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21C75C945E2345B4AB8974E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D436358EA924CE789E1C909</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1AE002C3DA7A443EA1FD8991</string>
-				<string>FEDF97527B19450186F7C598</string>
-				<string>D0E5AD33F352428FBC673E04</string>
-				<string>AF125573D2E64D988A6BF952</string>
-				<string>FD1764BA2BB74BEAAC86B518</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8E8BA794064AB890A0DA27</key>
+		<key>49DA389A5A0748E29A4D45E9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -834,384 +398,36 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>GRRequest.h</string>
+			<string>GRQueue.h</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRRequest.h</string>
+			<string>GoldRaccoon/Sources/Utils/GRQueue.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F515A3551904CF2BEDD0DD8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GoldRaccoon.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8FB3D0EEAEAE40A1B7A8E7FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F515A3551904CF2BEDD0DD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>906A34A3B5C14EE39714E967</key>
-		<dict>
-			<key>fileRef</key>
-			<string>772B4776643A43FAB2D52F0F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92C56D4F6E9C4BB088731E6E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>92F9CF28BFD54CDB9BC589A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EF634E6B649B42B5A7D9FD70</string>
-				<string>3AC6CAC28C1B43129C0A9BB8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>96D4D49A80354C25806C4DC7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>92C56D4F6E9C4BB088731E6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>989EDBB59EC74322B5361948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E584070C7AEB4D6AA8B0A9AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9BE36E9993334380964CB2E4</key>
+		<key>4E9DC681AAF9451B994EFFEB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRUploadRequest.h</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRUploadRequest.h</string>
+			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9F68B560F81E492895CCB4C6</key>
+		<key>56162A03CEBF42F0AFCCB38D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B83745ABE2774BEAA9828B42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A44A9618B91947CAB0DF44C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRQueue.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRQueue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A89CC242FBED44B5B99BB0F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB2A73DF21E441E7B9363697</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A8B64A7FB44E4224866B97A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BD059C72B0048699C27F56F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>AF125573D2E64D988A6BF952</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F565E20DDD4144EB8341B196</string>
-				<string>8F515A3551904CF2BEDD0DD8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B20C5C156BAE43699E49D518</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FB756C930F1A42D3A5B87422</string>
+			<string>E53981B85C024395878DEE4B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B28F80888EC84A2788CEBC00</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRError.h</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRError.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5D90267B27641F3A24CFD09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-GoldRaccoon-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B83745ABE2774BEAA9828B42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRRequestsManager.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/GRRequestsManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B947E525CF3C4515A0C7E426</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRRequest.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0C78540C948424E97E6C28A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B555878E49429F9A4EF0D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C521BFD33F244AC0882D9B5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A44A9618B91947CAB0DF44C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>CC6BE882DC2147DDB095EB79</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6982F79CD4AC40308EC7F185</string>
-			<key>buildPhases</key>
-			<array>
-				<string>43F76E4F02C9499AB290946A</string>
-				<string>3B0937677647425996D2B726</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7F598C0DEA844F538146491F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>F565E20DDD4144EB8341B196</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D0E5AD33F352428FBC673E04</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5F2F5556F63D42C5A59E8321</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D54D3EAE839941FAB4341F69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRStreamInfo.h</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRStreamInfo.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9204E8136B54606AE7A153F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8E8BA794064AB890A0DA27</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB2A73DF21E441E7B9363697</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRStreamInfo.m</string>
-			<key>path</key>
-			<string>GoldRaccoon/Sources/Utils/GRStreamInfo.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDC01AE0DB73431782B95C4E</key>
+		<key>6011A3D07D4243D5BE8A28A9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>605346F919FE41B981E3E54E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DE6B5407B22A4212828E87D1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>05ECC3FAF215491F87035A9F</string>
+			<string>7EB199D1996B4A859FB561E3</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -1224,8 +440,6 @@
 				<string>gnu99</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GoldRaccoon-prefix.pch</string>
 				<key>GCC_VERSION</key>
 				<string>com.apple.compilers.llvm.clang.1_0</string>
 				<key>INSTALL_PATH</key>
@@ -1260,27 +474,73 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>E29C416C87104FC3A42E990F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>621F80FB1DB641C2BA8A79CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2AD5A9534B847DDA51A00E8</key>
+		<key>64AA1BCE5FA742528374A007</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRError.m</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
+			<string>GoldRaccoon/Sources/Utils/GRError.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E584070C7AEB4D6AA8B0A9AE</key>
+		<key>6630A958BEE74FB1A154657A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BDBCE1271FAF4819B0E9AB30</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GoldRaccoon-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>681C6D24B191484B8FA5E136</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1289,29 +549,44 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>GRRequestsManager.h</string>
+			<string>GRDeleteRequest.h</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/GRRequestsManager.h</string>
+			<string>GoldRaccoon/Sources/Requests/GRDeleteRequest.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E8ADCC3C77AE46668226E808</key>
+		<key>6B4891D6CA034D60B60BF2A8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>154C4FA89C004FDA8E89C56E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6BF22DEE44E14CC5B2BE05F0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRQueue.m</string>
 			<key>path</key>
-			<string>Pods-GoldRaccoon.xcconfig</string>
+			<string>GoldRaccoon/Sources/Utils/GRQueue.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E90E8919D1384A7086D26201</key>
+		<key>6DF26BFD678B44728B412D7D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B947E525CF3C4515A0C7E426</string>
+			<string>8E3D8DFAB94E475684C055AF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1320,7 +595,16 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>EF634E6B649B42B5A7D9FD70</key>
+		<key>6E368F19C791404897F95B27</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>CA14B816DF8345FC81D98891</string>
+			<key>targetProxy</key>
+			<string>AED09C2AA2D74285B1ED3087</string>
+		</dict>
+		<key>6EE28A093FD141218C8428D7</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1387,7 +671,64 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>F4FB377ED4064B11B13341C9</key>
+		<key>729FA958843744A1AF02D343</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>89781ADDA49D4B9797EAE706</string>
+				<string>6011A3D07D4243D5BE8A28A9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>72D1117C21B244A7BF54394E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A72D3097B661443D948F88E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>731D62821CA34D36AEE5D047</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49DA389A5A0748E29A4D45E9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>773FEAACF8A44DF2A85C923E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FBACE7063AE944CC8215A737</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>788CDE9E9ADF459AB85E0CF0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRRequest.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>797AE7E6179C4CC3A0A52A2B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DA67ECC95E514101ADECC8F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7E3B337646EC4F788EBC03EE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1395,12 +736,623 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>7EB199D1996B4A859FB561E3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F565E20DDD4144EB8341B196</key>
+		<key>8168793A2A7F45BCB355A374</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1173F83C7139481A8C7AD429</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8307307032674A53AAF5C840</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BDBCE1271FAF4819B0E9AB30</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-GoldRaccoon-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>830D566E10984F4796569C7A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B43C0118E82E4BB3BE0D19F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89781ADDA49D4B9797EAE706</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7EB199D1996B4A859FB561E3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>89D56B10B07D411A95C40C2D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CBB3904B38BC46C8A68BEADB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8ADA21982F974430AE4D8AF6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E8FDD016BAB449BC89DD75A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8E3D8DFAB94E475684C055AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRRequestsManager.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/GRRequestsManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5847CB6A4E4EC4B51FD2BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>681C6D24B191484B8FA5E136</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8F0FBEA5BA4F4DBEB42A72BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>788CDE9E9ADF459AB85E0CF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>8FB9B2F8C5C644A1B14A3DB8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6EE28A093FD141218C8428D7</string>
+				<string>35EF9149E9324BF1BC5B696A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8FE8C63D4C82437CB8F0A149</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A08A098098847358E6983F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8FF9097734EA469C89800BFC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1867392657534975870AFEBA</string>
+				<string>C364024AF2054199BA9539B9</string>
+				<string>D9ADFD906057404E8EAD73B1</string>
+				<string>B863E2D29AFD44B2AFF05CF3</string>
+				<string>C7E26E46F6B644EBA029C1A8</string>
+				<string>3689D169BBD04AD2A03E649D</string>
+				<string>8F0FBEA5BA4F4DBEB42A72BF</string>
+				<string>6DF26BFD678B44728B412D7D</string>
+				<string>45FF5BB4E3834E83ABDB4E6B</string>
+				<string>21367C7A4EE443C39BDDB6BD</string>
+				<string>AA1BCA6F621241BE97BBEE34</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>922E78F9171D4F59A4F319BA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>25CC424DC9904F2C91DE33CC</string>
+				<string>8E5847CB6A4E4EC4B51FD2BD</string>
+				<string>1182AFF93ECC4DD4A45D11FC</string>
+				<string>773FEAACF8A44DF2A85C923E</string>
+				<string>2A5516B9D977439886ED21B4</string>
+				<string>731D62821CA34D36AEE5D047</string>
+				<string>72D1117C21B244A7BF54394E</string>
+				<string>1DA225A0D7CE4876A7CD2E52</string>
+				<string>8ADA21982F974430AE4D8AF6</string>
+				<string>2195AC7898004B2589C66FC6</string>
+				<string>8168793A2A7F45BCB355A374</string>
+				<string>797AE7E6179C4CC3A0A52A2B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>946CCBBCE09B494892059AF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRStreamInfo.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Utils/GRStreamInfo.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A08A098098847358E6983F7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9B62BCA329CC447D9DDC2770</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9A08A098098847358E6983F7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6F689C195604DD9B7334CAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GoldRaccoon.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A72D3097B661443D948F88E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRRequest.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA1BCA6F621241BE97BBEE34</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ABD0BA7000424439A96AB300</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ABD0BA7000424439A96AB300</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-GoldRaccoon-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD0580176A9B4DABA97381D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRRequestProtocol.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRRequestProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AED09C2AA2D74285B1ED3087</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2CB5FE4F63B24B02A8861285</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CA14B816DF8345FC81D98891</string>
+			<key>remoteInfo</key>
+			<string>Pods-GoldRaccoon</string>
+		</dict>
+		<key>B0381766E7304A34AE504D02</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRCreateDirectoryRequest.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRCreateDirectoryRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B43C0118E82E4BB3BE0D19F2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B0381766E7304A34AE504D02</string>
+				<string>3985575C7CEE4D6B895CB244</string>
+				<string>681C6D24B191484B8FA5E136</string>
+				<string>2EC7094403E54FB5AB0445DB</string>
+				<string>4400FE439BF24913921B7239</string>
+				<string>1AC05332DD3347869E0BE327</string>
+				<string>FBACE7063AE944CC8215A737</string>
+				<string>64AA1BCE5FA742528374A007</string>
+				<string>DBADBF79D08C4F3E93B1338E</string>
+				<string>E80404FEE82B4E2FA6956CCF</string>
+				<string>49DA389A5A0748E29A4D45E9</string>
+				<string>6BF22DEE44E14CC5B2BE05F0</string>
+				<string>A72D3097B661443D948F88E5</string>
+				<string>788CDE9E9ADF459AB85E0CF0</string>
+				<string>AD0580176A9B4DABA97381D9</string>
+				<string>E8FDD016BAB449BC89DD75A9</string>
+				<string>8E3D8DFAB94E475684C055AF</string>
+				<string>2F5A1A98472C4161AFE3F624</string>
+				<string>1173F83C7139481A8C7AD429</string>
+				<string>946CCBBCE09B494892059AF3</string>
+				<string>DA67ECC95E514101ADECC8F4</string>
+				<string>E7FEB7DEE2CA4541BCF5A91F</string>
+				<string>FDCBA022C64E48E788C09617</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoldRaccoon</string>
+			<key>path</key>
+			<string>GoldRaccoon</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B863E2D29AFD44B2AFF05CF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>64AA1BCE5FA742528374A007</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>BDBCE1271FAF4819B0E9AB30</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-GoldRaccoon-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C364024AF2054199BA9539B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EC7094403E54FB5AB0445DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>C7E26E46F6B644EBA029C1A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E80404FEE82B4E2FA6956CCF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>C89E6AB0E2634FFC9E4A096D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C943737085884862B4B0D869</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C89E6AB0E2634FFC9E4A096D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CA14B816DF8345FC81D98891</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E54A2A535FEB400180046FDD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8FF9097734EA469C89800BFC</string>
+				<string>89D56B10B07D411A95C40C2D</string>
+				<string>922E78F9171D4F59A4F319BA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-GoldRaccoon</string>
+			<key>productName</key>
+			<string>Pods-GoldRaccoon</string>
+			<key>productReference</key>
+			<string>E53981B85C024395878DEE4B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>CBB3904B38BC46C8A68BEADB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A08A098098847358E6983F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D15FD307A2E54EDA9222A3FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D57ABE95638A4E4B88278C4C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>729FA958843744A1AF02D343</string>
+			<key>buildPhases</key>
+			<array>
+				<string>04B0A1F3EAB74649B0C0AD10</string>
+				<string>27B1A128B7EE4991A07CF525</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>6E368F19C791404897F95B27</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>2046A25D86E3450CA10B410B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>D9ADFD906057404E8EAD73B1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1AC05332DD3347869E0BE327</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>DA67ECC95E514101ADECC8F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRUploadRequest.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRUploadRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DBADBF79D08C4F3E93B1338E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GRListingRequest.h</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRListingRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E53981B85C024395878DEE4B</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1409,25 +1361,55 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>libPods.a</string>
+			<string>libPods-GoldRaccoon.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>F8AC101B7A05439CA621D3DE</key>
+		<key>E54A2A535FEB400180046FDD</key>
 		<dict>
-			<key>fileRef</key>
-			<string>D54D3EAE839941FAB4341F69</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6630A958BEE74FB1A154657A</string>
+				<string>8307307032674A53AAF5C840</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>F9B7D50A60364302B6156723</key>
+		<key>E7FEB7DEE2CA4541BCF5A91F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>1ED365CC65BD4DB0A727B014</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRUploadRequest.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRUploadRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FB5B053FF3F34EA196275A2D</key>
+		<key>E80404FEE82B4E2FA6956CCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GRListingRequest.m</string>
+			<key>path</key>
+			<string>GoldRaccoon/Sources/Requests/GRListingRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8FDD016BAB449BC89DD75A9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1436,13 +1418,26 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>GRDeleteRequest.h</string>
+			<string>GRRequestsManager.h</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/Requests/GRDeleteRequest.h</string>
+			<string>GoldRaccoon/Sources/GRRequestsManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FB756C930F1A42D3A5B87422</key>
+		<key>F2CE90874BE748BBAE9FF1E3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-GoldRaccoon-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBACE7063AE944CC8215A737</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1451,40 +1446,45 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>GRRequestsManagerProtocol.h</string>
+			<string>GRError.h</string>
 			<key>path</key>
-			<string>GoldRaccoon/Sources/GRRequestsManagerProtocol.h</string>
+			<string>GoldRaccoon/Sources/Utils/GRError.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FD1764BA2BB74BEAAC86B518</key>
+		<key>FDA8C2EF5D2944808F822C33</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4AC75026A38447C8971A912A</string>
+				<string>7E3B337646EC4F788EBC03EE</string>
+				<string>3D7BCBC35B0A4A5887198C43</string>
+				<string>830D566E10984F4796569C7A</string>
+				<string>13CE77686052448D8ACBB78C</string>
+				<string>6B4891D6CA034D60B60BF2A8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDCBA022C64E48E788C09617</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A6F689C195604DD9B7334CAD</string>
+				<string>BDBCE1271FAF4819B0E9AB30</string>
+				<string>ABD0BA7000424439A96AB300</string>
+				<string>F2CE90874BE748BBAE9FF1E3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>Support Files</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEDF97527B19450186F7C598</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96D4D49A80354C25806C4DC7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>57C63987E6CF4ECE9B1F0D85</string>
+	<string>2CB5FE4F63B24B02A8861285</string>
 </dict>
 </plist>

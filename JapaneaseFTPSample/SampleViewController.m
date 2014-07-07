@@ -7,6 +7,7 @@
 //
 
 #import "SampleViewController.h"
+#import "GRRequest+encode.h"
 
 @interface SampleViewController ()
 @property(nonatomic, strong) NSString *ftpFileName;
@@ -68,10 +69,9 @@
         return;
     }
     
-    NSString *newName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
-    NSString* encodedFileName = [newName stringByAddingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    NSString *fileName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
 
-    [self.requestsManager addRequestForDownloadFileAtRemotePath:encodedFileName toLocalPath:[NSTemporaryDirectory() stringByAppendingPathComponent:self.ftpFileName]];
+    [self.requestsManager addRequestForDownloadFileAtRemotePath:fileName toLocalPath:[NSTemporaryDirectory() stringByAppendingPathComponent:self.ftpFileName]];
     [self.requestsManager startProcessingRequests];
 }
 
@@ -90,10 +90,9 @@
         return;
     }
     
-    NSString *newName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
-    NSString* encodedFileName = [newName stringByAddingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    NSString *fileName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
     
-    [self.requestsManager addRequestForUploadFileAtLocalPath:[NSTemporaryDirectory() stringByAppendingPathComponent:self.ftpFileName] toRemotePath:encodedFileName];
+    [self.requestsManager addRequestForUploadFileAtLocalPath:[NSTemporaryDirectory() stringByAppendingPathComponent:self.ftpFileName] toRemotePath:fileName];
     [self.requestsManager startProcessingRequests];
 }
 
@@ -115,10 +114,9 @@
         return;
     }
     
-    NSString *newName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
-    //    NSString* encodedFileName = [newName stringByAddingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
-    // delete時は内部でURLエンコードされている
-    [self.requestsManager addRequestForDeleteFileAtPath:newName];
+    NSString *fileName = [[NSString alloc] initWithData:nameData encoding:NSMacOSRomanStringEncoding];
+
+    [self.requestsManager addRequestForDeleteFileAtPath:fileName];
     [self.requestsManager startProcessingRequests];
 }
 
@@ -158,7 +156,12 @@
 
 - (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didCompleteDownloadRequest:(id<GRDataExchangeRequestProtocol>)request
 {
-    NSLog(@"requestsManager:didCompleteDownloadRequest:");
+    NSString *escapedFileName = [request path];
+    NSString* decodedFileName = [escapedFileName stringByReplacingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    NSData *nameData = [decodedFileName dataUsingEncoding:NSMacOSRomanStringEncoding];
+    NSString *localName = [[NSString alloc] initWithData:nameData encoding:NSShiftJISStringEncoding];
+    NSLog(@"requestsManager:didCompleteDownloadRequest: %@", localName);
+    
     self.putButton.enabled = YES;
 }
 
@@ -189,7 +192,11 @@
 
 - (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didCompleteUploadRequest:(id<GRDataExchangeRequestProtocol>)request
 {
-    
+    NSString *escapedFileName = [request path];
+    NSString* decodedFileName = [escapedFileName stringByReplacingPercentEscapesUsingEncoding:NSMacOSRomanStringEncoding];
+    NSData *nameData = [decodedFileName dataUsingEncoding:NSMacOSRomanStringEncoding];
+    NSString *localName = [[NSString alloc] initWithData:nameData encoding:NSShiftJISStringEncoding];
+    NSLog(@"requestsManager:didCompleteUploadRequest: %@", localName);
 }
 
 - (void)requestsManager:(id<GRRequestsManagerProtocol>)requestsManager didCompleteDeleteRequest:(id<GRRequestProtocol>)request
