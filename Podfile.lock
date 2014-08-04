@@ -1,10 +1,10 @@
 PODS:
-  - GoldRaccoon (1.0.1)
+  - GoldRaccoon (1.0.2)
 
 DEPENDENCIES:
   - GoldRaccoon
 
 SPEC CHECKSUMS:
-  GoldRaccoon: b1b27e83e7d9de60fc6c172ac5439532b2a58efa
+  GoldRaccoon: d113e556626b0887b1210ee3838e549dc40a4dbc
 
 COCOAPODS: 0.33.1

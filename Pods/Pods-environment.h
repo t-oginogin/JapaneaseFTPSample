@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_GoldRaccoon
 #define COCOAPODS_VERSION_MAJOR_GoldRaccoon 1
 #define COCOAPODS_VERSION_MINOR_GoldRaccoon 0
-#define COCOAPODS_VERSION_PATCH_GoldRaccoon 1
+#define COCOAPODS_VERSION_PATCH_GoldRaccoon 2
 

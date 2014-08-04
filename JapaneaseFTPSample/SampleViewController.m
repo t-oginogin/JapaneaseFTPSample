@@ -8,7 +8,6 @@
 
 #import "SampleViewController.h"
 #import "GRRequest+encode.h"
-#import "GRStreamInfo+bugfix.h"
 
 @interface SampleViewController ()
 @property(nonatomic, strong) NSString *ftpFileName;
